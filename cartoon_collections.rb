@@ -8,7 +8,7 @@ end
 def summon_captain_planet(array)
 
     new_array = []
-    new_array << array.each.map do |planeteer|
+    new_array << array.map do |planeteer|
     planeteer.capitalize.split("! ")
     end
 end
