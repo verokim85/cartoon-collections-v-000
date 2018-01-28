@@ -6,26 +6,12 @@ end
 
 
 def summon_captain_planet(array)
-  i = 0
-  new_array = []
 
-  while i < array.length
-    array.join
-    new_array  << array[i].split("[]")
-    i += 1
-  end
-  new_array << array.each.map do |planeteer|
-  planeteer.capitalize.split("! ")
- end
- new_array
+    new_array = []
+    new_array << array.each.map do |planeteer|
+    planeteer.capitalize.split("! ")
+    end
 end
-
-
-#     new_array = []
-#     new_array << array.each.map do |planeteer|
-#     planeteer.capitalize.split("! ")
-#     end
-# end
 
 
 
