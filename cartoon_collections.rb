@@ -6,7 +6,6 @@ end
 
 
 def summon_captain_planet(array)
-
     new_array = []
     new_array << array.map do |planeteer|
     planeteer.capitalize.split("! ")
