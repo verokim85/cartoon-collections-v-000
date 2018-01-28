@@ -24,7 +24,7 @@ end
 
 
 def find_the_cheese(array)
-cheeses = ["cheddar", "gouda", "camembert"]
+cheese_types = ["cheddar", "gouda", "camembert"]
 
   array.detect do |item|
     # if
