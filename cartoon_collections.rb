@@ -10,7 +10,7 @@ def summon_captain_planet(array)
     new_array = []
 
     while i < array.length
-
+    new_array  << array.each.map do |planet|
 
 
 
